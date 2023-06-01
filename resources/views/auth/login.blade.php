@@ -1,18 +1,17 @@
 @extends('layouts.app')
 
 @section('titulo')
-Inicia sesion en Devstagram
+Iniciar sesion
 @endsection
 
 @section('contenido')
 
+    
+
 <div class="md:flex md:justify-center md:gap-10 md:items-center "> 
-    <div class="md:w-7/12 p-5">
-        <img src="{{asset('img/login.jpg')}}"  alt="Imagen login de usuarios"  >
+  
 
-    </div>
-
-    <div class="md:w-4/12 bg-white p-6 rounded-lg shadow-xl"  >
+    <div class="  md:w-10/12 bg-green-100 p-6 rounded leading-8 shadow-xl"  >
     
         <form method="POST" action="{{route('login')}}" novalidate>
             
@@ -24,8 +23,8 @@ Inicia sesion en Devstagram
             </p>  
          @endif
             <div class=" mb-5">
-                <label for ="email" class="mb-2 block uppercase text-gray-500 font-bold">
-                    Email
+                <label for ="email" class="mb-2 block uppercase text-black-500 font-bold">
+                    EMAIL
                 </label>
                 <input 
                 id="email"
@@ -42,7 +41,7 @@ Inicia sesion en Devstagram
             @enderror
 
             <div class=" mb-5">
-                <label for ="password" class="mb-2 block uppercase text-gray-500 font-bold">
+                <label for ="password" class="mb-2 block uppercase black-gray-500 font-bold">
                     Password
                 </label>
                 <input 
@@ -59,13 +58,13 @@ Inicia sesion en Devstagram
             </div>
 
             <div class="mb-5">
-                <input type="checkbox" name="remember"><label class=" text-gray-500 text-sm ">Mantener mi sesion abierta</label>
+                <input type="checkbox" name="remember"><label class=" text-gray-500 text-sm "> Mantener mi sesion abierta</label>
             </div>
            
 
             <input type="submit"
             value="iniciar sesion"
-            class=" bg-sky-600 hover:bg-sky-700 transition-colors cursor-pointer uppercase font-bold w-full p-3 text-white rounded-lg"
+            class=" animate-pulse bg-green-800 hover:bg-green-700 transition-colors cursor-pointer uppercase font-bold w-full p-2 text-black rounded-xl"
             />
 
 

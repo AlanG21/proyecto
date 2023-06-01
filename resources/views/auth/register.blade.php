@@ -7,12 +7,9 @@ Registrate en Devstagram
 @section('contenido')
 
 <div class="md:flex md:justify-center md:gap-10 md:items-center "> 
-    <div class="md:w-7/12 p-5">
-        <img src="{{asset('img/registrar.jpg')}}"  alt="Imagen registro de usuarios"  >
+  
 
-    </div>
-
-    <div class=" md:w-4/12 bg-white p-6 rounded-lg shadow-xl"  >
+    <div class="  md:w-10/12 bg-green-100 p-6 rounded leading-8 shadow-xl"  >
     
         <form action="{{route('register')}}" method="POST" novalidate>
             @csrf
@@ -108,7 +105,7 @@ Registrate en Devstagram
 
             <input type="submit"
             value="Crear cuenta"
-            class=" bg-sky-600 hover:bg-sky-700 transition-colors cursor-pointer uppercase font-bold w-full p-3 text-white rounded-lg"
+            class=" animate-pulse bg-green-800 hover:bg-green-700 transition-colors cursor-pointer uppercase font-bold w-full p-2 text-black rounded-xl"
             />
 
 
