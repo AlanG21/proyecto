@@ -56,7 +56,7 @@ public function store(Request $request) {
 
 
     //redireccionar
-    return redirect()->route('dashboard');
+    return redirect()->route('grupos');
 
 
     }

@@ -24,10 +24,10 @@ class ServiceController extends Controller
             'features' => $request->input('features'),
         ]);
 
+        
+        // Redireccionar o mostrar un mensaje 
         return redirect()->route('dashboard');
 
-
-        // Redireccionar o mostrar un mensaje de éxito
     }
 
     public function destroy(Service $service)

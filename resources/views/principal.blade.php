@@ -7,5 +7,5 @@ Pagina principal
 @endsection
 
 @section('contenido')
-contenido de la pagina
+Registro de Grupos y alumnos
 @endsection
