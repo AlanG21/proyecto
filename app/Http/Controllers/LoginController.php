@@ -1,13 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Cache\RedisTagSet;
 use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-    //
+    
 
     public function index()
     {
@@ -30,6 +28,6 @@ class LoginController extends Controller
             
         }
 
-        return redirect()->route(('dashboard'));
+        return redirect()->route(('grupos'));
     }
 }

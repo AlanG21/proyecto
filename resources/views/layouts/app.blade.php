@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Registro Servicios - @yield('titulo')</title>
+        <title>Registro Grupos y alumnos - @yield('titulo')</title>
         @vite('resources/css/app.css')
        
 
@@ -15,7 +15,7 @@
 
 
             <h1 class=" text-2xl font-mono ">
-                Registro de servicios- proyectoU1- 2030280
+                Registro de grupos y alumnos- examen - 2030280
             </h1>
 
 

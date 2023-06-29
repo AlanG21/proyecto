@@ -28,11 +28,11 @@ Registro de servicios
                     <textarea name="long_description" id="long_description" rows="3" class="border border-green-600 rounded-md p-2 w-full" required></textarea>
                 </div>
                 <div class="mb-4">
-                    <label for="price" class="block text-black-800 font-bold mb-2">Precio:</label>
+                    <label for="price" class="block text-black-800 font-bold mb-2">Precio del servicio:</label>
                     <input type="number" name="price" id="price" class="border border-green-600 rounded-md p-2 w-full" required>
                 </div>
                 <div class="mb-4">
-                    <label for="features" class="block text-black-800 font-bold mb-2">Características:</label>
+                    <label for="features" class="block text-black-800 font-bold mb-2">Características del servicio:</label>
                     <textarea name="features" id="features" rows="3" class="border border-green-600 rounded-md p-2 w-full" required></textarea>
                 </div>
                 <div class=" flex justify-end">
